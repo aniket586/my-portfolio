@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <!-- Add link to CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I am a web developer with expertise in HTML, CSS, and JavaScript.</p>
+        <a id="downloadResumeLink" href="aniketcv.docx" download>Download Resume</a>
+<button id="downloadResumeButton" class="hidden">Resume</button>
+    </section>
+<!-- About Section -->
+<section id="about" class="about-section">
+    <h2>About Me</h2>
+    <div class="profile-info">
+        <img src="stock images/dp.jpg" alt="profile">
+        <div class="social-icons">
+            <a href="https://www.instagram.com/" target="_blank"><img src="stock images/insta.jpeg" alt="Instagram"></a>
+            <a href="mailto:youremail@example.com"><img src="stock images/mail.png" alt="Email"></a>
+            <a href="https://github.com/" target="_blank"><img src="stock images/git.png" alt="GitHub"></a>
+        </div>
+    </div>
+    <p>I have been working as a web developer for over 5 years, and I specialize in building responsive websites using modern web technologies.</p>
+    
+    
+</section>
+
+
+
+
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <h2></h2>
+        <div class="service-item">
+            <i class="fas fa-clock"></i>
+            <h3>Website Development</h3>
+            <p>I can build custom websites tailored to your specific needs using the latest web technologies.</p>
+        </div>
+        <div class="service-item">
+            <i class="fas fa-palette"></i>
+            <h3>Website Design</h3>
+            <p>I can create visually stunning and user-friendly website designs that will help you stand out from the competition.</p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <h2>Projects</h2>
+        <div class="portfolio-item">
+            <a href="https://65d11229b12513d96bbdb5f6--starbucklanding.netlify.app/" target="_blank">
+                <img src="stock images/Starbucks-Logo.png" alt="Project 1">
+                <div class="portfolio-item-info">
+                    <h3>Project 1</h3>
+                    <p>Description of Project 1.</p>
+                </div>
+            </a>
+        </div>
+        <div class="portfolio-item">
+            <a href="https://65d11f1428293ddc95cb92cf--zomatoproaniket.netlify.app/">
+                <img src="stock images/zomato.png" alt="Project 2">
+                <div class="portfolio-item-info">
+                    <h3>Project 2</h3>
+                    <p>Description of Project 2.</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+            <input type="submit" value="Send">
+        </form>
+        <footer id="s">CC-Dev.Aniket</footer>
+    </section>
+
+    <!-- Add link to JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
