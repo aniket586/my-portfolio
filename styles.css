@@ -141,15 +141,14 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start; /* Align items to the top */
     background-color: #ffffff; /* light salmon */
     margin: 2rem 0;
 }
 
 .portfolio-item {
-    position: relative;
-    width: 31%;
-    margin-bottom: 2rem;
+    width: calc(33.33% - 20px); /* Adjust the width of each item */
+    margin-bottom: 20px; /* Add bottom margin */
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 3px 6px rgba(199, 191, 191, 0.872);
@@ -277,6 +276,5 @@ footer {
    color: #2d2c2c;
    bottom: auto;
 }
-
 
 
